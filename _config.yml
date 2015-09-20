@@ -2,13 +2,12 @@ menu:
   首页: /
   归档: /archives
   关于: /about
-  工具: /tools
   
 
 widgets:
 - search
 - category
-- intro
+- tagcloud
 - weibo
 
 excerpt_link: 阅读全文
@@ -17,19 +16,19 @@ plugins:
 - hexo-generator-feed
 
 twitter:
-  username:
+  username: tiannianshou
   show_replies: false
   tweet_count: 5
 
 addthis:
   enable: true
   pubid:
-  facebook: true
+  facebook:
   twitter: true
-  google: true
-  pinterest: true
+  google:
+  pinterest:
 
 fancybox: true
 
 google_analytics: UA-41207871-1
-rss: http://zipperary.com/atom.xml
+rss: http://blog.lyric.name/atom.xml
